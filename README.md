@@ -13,7 +13,7 @@ Student B: 94 51 54 81
 
 Comparisons:
 
-- Student A had 96 for the first assignment, and Student B had 94. 96 > 96, so Student A is assigned a point of "1"
+- Student A had 96 for the first assignment, and Student B had 94. 96 > 94, so Student A is assigned a point of "1"
 - Student A had 48 for the second assignment, and student B had 51. 48 < 51, so Student B is assigned a point of "1" (Student A gets "0")
 - Student A has 54 for the third assignment, and student B also has 54. 54 == 54, so neither student gets a mark, both gets "0"
 - Student A has 84 for the fourth assignment, and student B has 81. 84 > 81, so Student A gets "1" and student B gets "0"
@@ -38,7 +38,7 @@ You will output the scores for each pair, per student. So the first line will be
 
 You can look at two files:
 - play.php: This is the file you'll run using `php play.php` to see the code in action.
-- src\CompareTheScotes.php: This is the clas you'd use to do the comparison code.
+- src\CompareTheScores.php: This is the class you use to do the comparison code.
 
 ### Testing:
 
