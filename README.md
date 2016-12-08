@@ -1,16 +1,43 @@
-# {{ name of project }}
+# Compare the Scores
 
 _Please read the "Getting Started" section if you are unfamiliar with getting the project going._
 
 ## What it's about:
 
-{{ description }}
+**Problem**: It's the end of the year, and you have two students who are in a close run for DUX student! We need to choose who is going to win the trophy by counting the "wins" on each assignment.
+ 
+Example: (of students A and B's marks for each of the projects/assignments we are considering)
+
+Student A: 96 48 54 84
+Student B: 94 51 54 81
+
+Comparisons:
+
+- Student A had 96 for the first assignment, and Student B had 94. 96 > 96, so Student A is assigned a point of "1"
+- Student A had 48 for the second assignment, and student B had 51. 48 < 51, so Student B is assigned a point of "1" (Student A gets "0")
+- Student A has 54 for the third assignment, and student B also has 54. 54 == 54, so neither student gets a mark, both gets "0"
+- Student A has 84 for the fourth assignment, and student B has 81. 84 > 81, so Student A gets "1" and student B gets "0"
+
+Thus, Student A has a total of 1+0+0+1 = 2, and Student B has a total of 0+1+0+0 = 1. Therefore Student A is the winner.
+
+**Input**:
+
+You will receive two lines of input. The first line will be assigned to student A. The second line to Student B. For example:
+
+    96 48 54 84
+    94 51 54 81
+
+**Output**:
+
+You will output the scores for each pair, per student. So the first line will be the scores for Student A, the second line the scores for Student B. For example:
+
+    1 0 0 1 = 2
+    0 1 0 0 = 1
 
 ### Where the code sits:
 
 You can look at two files:
 - play.php: This is the file you'll run using `php play.php` to see the code in action.
-- {{ other files }}
 
 ### Testing:
 
