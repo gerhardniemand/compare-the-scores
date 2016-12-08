@@ -38,6 +38,7 @@ You will output the scores for each pair, per student. So the first line will be
 
 You can look at two files:
 - play.php: This is the file you'll run using `php play.php` to see the code in action.
+- src\CompareTheScotes.php: This is the clas you'd use to do the comparison code.
 
 ### Testing:
 
